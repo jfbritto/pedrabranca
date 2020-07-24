@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta name=”keywords” content="igrejacontrole, igreja, igrejas, gestão, gerenciamento, controle, church, louvor, adoração, culto, jesus, deus, sistema, sisigreja, atos6, sistemadeigreja, management, sistemchurch" />
-    <meta property="og:url" content="http://www.igrejacontrole.com.br/" />
+    <meta name=”keywords” content="" />
+    <meta property="og:url" content="http://pedrabranca.jfbritto.com.br/" />
     <meta property="type" content="website" />
-    <meta property="og:title" content="IGREJA CONTROLE">
-    <meta property="og:description" content="Sistema de controle e organização de igrejas">
-    <meta property="og:image" content="{{asset("img/background-reduce.jpg")}}">
+    <meta property="og:title" content="PEDRA BRANCA TRANSPORTES">
+    <meta property="og:description" content="Empresa especializada em Transportes de carga">
+    <meta property="og:image" content="/site1/img/logo2.png">
     <meta property="og:locale" content="pt_BR">
-    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:type" content="/site1/img/logo2.png">
     <meta property="og:image:width" content="640">
     <meta property="og:image:height" content="480">
 
