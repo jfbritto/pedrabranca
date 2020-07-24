@@ -132,7 +132,7 @@
 
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6 caminhao1">
+        <div class="col-lg-6 caminhao1 caminhaobase">
           <!-- <img class="img-fluid img-cover" src="/site1/img/caminhao1.png" alt=""> -->
         </div>
         <div class="col-lg-6">
@@ -150,7 +150,7 @@
 
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6 caminhao2">
+        <div class="col-lg-6 caminhao2 caminhaobase">
           <!-- <img class="img-fluid img-cover" src="/site1/img/caminhao2.png" alt=""> -->
         </div>
         <div class="col-lg-6 order-lg-first">
@@ -168,7 +168,7 @@
 
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6 caminhao3">
+        <div class="col-lg-6 caminhao3 caminhaobase">
           <!-- <img class="img-fluid img-cover" src="/site1/img/caminhao3.png" alt=""> -->
         </div>
         <div class="col-lg-6">
@@ -508,7 +508,7 @@
             autoplay:true,
             autoplayTimeout:2000,
             autoplayHoverPause:true,
-            items: 1
+            items: 2
         });
 
     })
