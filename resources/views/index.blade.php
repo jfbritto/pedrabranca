@@ -21,20 +21,20 @@
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#2250bd">
 
-    <link rel="icon" href="img/logo.png">
+    <link rel="icon" href="/site1/img/logo.png">
 
   <title>Pedra Branca Transportes - Transportes de carga</title>
 
 
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/css/all.min.css" rel="stylesheet">
+  <link href="/site1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/site1/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-  <link href="css/grayscale.min.css" rel="stylesheet">
-  <link href="/css/owl.carousel.min.css" rel="stylesheet">
+  <link href="/site1/css/grayscale.min.css" rel="stylesheet">
+  <link href="/site1/css/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Site css -->
-  <link href="css/site.css" rel="stylesheet">
+  <link href="/site1/css/site.css" rel="stylesheet">
 
 
 </head>
@@ -44,7 +44,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">PEDRA BRANCA TRANSPORTES </a>
+      <a class="navbar-brand js-scroll-trigger texto-logo" href="#page-top"> PEDRA BRANCA TRANSPORTES </a>
+      <a class="navbar-brand js-scroll-trigger img-logo" href="#page-top"> <img width="50" class="img-fluid" src="/site1/img/logo2.png" alt=""> </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -52,22 +53,22 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+            <a class="nav-link js-scroll-trigger" href="#about">SOBRE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Estrutura</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">ESTRUTURA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#clients">Serviços</a>
+            <a class="nav-link js-scroll-trigger" href="#clients">SERVIÇOS</a>
           </li>
 <!--           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#plans">Planos</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#login">Orçamento</a>
+            <a class="nav-link js-scroll-trigger" href="#login">ORÇAMENTO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">CONTATO</a>
           </li>
         </ul>
       </div>
@@ -119,27 +120,27 @@
         </div>
 
       </div>
-      <!-- <img src="img/ipad.png" class="img-fluid" alt=""> -->
+      <!-- <img src="/site1/img/ipad.png" class="img-fluid" alt=""> -->
     </div>
   </section>
 
   <!-- Projects Section -->
   <section id="projects" class="projects-section bg-light">
-    <div class="container">
+    <div class="container-fluid">
 
-      <h2 class="text-black-50 mx-auto mt-2 mb-5 text-center">Serviços</h2>
+      <h2 class="text-black-50 mx-auto mt-2 mb-5 text-center">ESTRUTURA</h2>
 
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/aegee.jpg" alt="">
+        <div class="col-lg-6 caminhao1">
+          <!-- <img class="img-fluid img-cover" src="/site1/img/caminhao1.png" alt=""> -->
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Controle de membros</h4>
-                <p class="mb-0 text-white-50 text-justify">Cadastre ou simplesmente envie o link para os próprios membros preencherem seus dados, tornando todo o controle muito mais fácil!</p>
+                <h4 class="text-white">MODERNA TECNOLOGIA</h4>
+                <p class="mb-0 text-white-50 text-justify">Estamos sempre precupados com a satisfação de nossos clientes. Em consequencia de grandes demandas de transporte, sabemos que o uso de tecnologia proporciona redução de custos, assim como redução de frete. </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -149,15 +150,15 @@
 
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/event.jpg" alt="">
+        <div class="col-lg-6 caminhao2">
+          <!-- <img class="img-fluid img-cover" src="/site1/img/caminhao2.png" alt=""> -->
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Agenda</h4>
-                <p class="mb-0 text-white-50 text-justify">Saiba quando, onde e em qual horário serão os próximos compromissos!</p>
+                <h4 class="text-white">FROTA PRÓPRIA</h4>
+                <p class="mb-0 text-white-50 text-justify">Em virtude do controle sobre nossas entregas, o uso de caminhões próprios nos proporciona melhores condições para tomada de decisão. </p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -167,73 +168,16 @@
 
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/retiro.jpg" alt="">
+        <div class="col-lg-6 caminhao3">
+          <!-- <img class="img-fluid img-cover" src="/site1/img/caminhao3.png" alt=""> -->
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Eventos</h4>
-                <p class="mb-0 text-white-50 text-justify">Abandone o papel e caneta! com apenas um link todos os participantes poderão realizar suas inscrições nos retiros e caravanas!</p>
+                <h4 class="text-white">PROFISSIONAIS CAPACITADOS</h4>
+                <p class="mb-0 text-white-50 text-justify">Nada adianta equipamentos sofisticados sem bons profissionais. Investimos fortemente em capacitação e qualificação para nossos profissionais. </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Project Four Rows -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/financa.jpg" alt="">
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Controle de caixa</h4>
-                <p class="mb-0 text-white-50 text-justify">Organize as finanças de sua igreja mais facilmente. Deixe que a gente te mostre o quanto pode ser simples!</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Project One Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/cells.jpg" alt="">
-        </div>
-        <div class="col-lg-6">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Células</h4>
-                <p class="mb-0 text-white-50 text-justify">Mantenha a organização das células, envie os estudos da semana e disponibilize as informações necessárias para o seu bom funcionamento!</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Project Four Rows -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/folders.jpg" alt="">
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Arquivos</h4>
-                <p class="mb-0 text-white-50 text-justify">Aposente os documentos de papel e a poeira acumulada! com o igreja controle você mantém todos os seus arquivos protegidos e disponíveis a todo instante com nosso serviço de armazenamento em nuvem.</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
           </div>
@@ -249,19 +193,55 @@
 
   <!-- Login Section -->
   <section id="clients" class="clients-section d-flex bg-black">
-    <div class="container my-auto">
+    <div class="container ">
 
       <div class="text-center">
 
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">SERVIÇOS</h2>
+        
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">Igrejas</h2>
 
             <div class="owl-carousel" style="padding-bottom: 50px">
                 
                 <a target="_blank" href="" class="text-center">
-                    <img style="border-radius: 50%; cursor: pointer;" src="" alt="" >
-                    <span style="color: white">asdasd</span>
+                    <img style="border-radius: 100%; cursor: pointer;" src="/site1/img/servico1.jpg" alt="" >
+                    <span style="color: white">MATERIAIS DE CONSTRUÇÃO</span>
+                </a>
+                
+                <a target="_blank" href="" class="text-center">
+                    <img style="border-radius: 100%; cursor: pointer;" src="/site1/img/servico2.jpg" alt="" >
+                    <span style="color: white">MÓVEIS</span>
+                </a>
+                
+                <a target="_blank" href="" class="text-center">
+                    <img style="border-radius: 100%; cursor: pointer;" src="/site1/img/servico3.jpg" alt="" >
+                    <span style="color: white">MADEIRAS</span>
+                </a>
+                
+                <a target="_blank" href="" class="text-center">
+                    <img style="border-radius: 100%; cursor: pointer;" src="/site1/img/servico4.jpg" alt="" >
+                    <span style="color: white">ALIMENTOS</span>
+                </a>
+                
+                <a target="_blank" href="" class="text-center">
+                    <img style="border-radius: 100%; cursor: pointer;" src="/site1/img/servico5.jpg" alt="" >
+                    <span style="color: white">PRODUTOS SIDERÚRGICOS</span>
+                </a>
+                
+                <a target="_blank" href="" class="text-center">
+                    <img style="border-radius: 100%; cursor: pointer;" src="/site1/img/servico6.jpg" alt="" >
+                    <span style="color: white">MATÉRIAS PRIMAS INDUSTRIAIS</span>
+                </a>
+                
+                <a target="_blank" href="" class="text-center">
+                    <img style="border-radius: 100%; cursor: pointer;" src="/site1/img/servico7.jpg" alt="" >
+                    <span style="color: white">ADUBOS</span>
+                </a>
+                
+                <a target="_blank" href="" class="text-center">
+                    <img style="border-radius: 100%; cursor: pointer;" src="/site1/img/servico8.jpg" alt="" >
+                    <span style="color: white">LOGÍSTICA E GERAL</span>
                 </a>
 
             </div>
@@ -302,21 +282,138 @@
 
   <!-- Login Section -->
   <section id="login" class="signup-section d-flex">
-    <div class="container my-auto">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-10 col-lg-8 mx-auto text-center">
+        <div class="col-md-10 col-lg-8 mx-auto">
 
-            <h2 class="text-white-50 mx-auto mt-2 mb-5">Login <br> Administração da igreja</h2>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5 text-center">ORÇAMENTO</h2>
 
-            <div class="messages">
+            <form style="color: #fff" @submit.prevent="submit" v-if="!success && !error && !loading">
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label for="">Remetente</label>
+                      <input type="text" class="form-control" name="remetente" id="remetente"
+                          v-model="fields.remetente">
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label for="">Contato</label>
+                      <input type="text" class="form-control" name="contato" id="contato"
+                          v-model="fields.contato">
+                  </div>
+              </div>
 
-            </div>
-            <form method="POST" action="" class="form-inline d-flex">
-                @csrf
-                <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="email" placeholder="Informe seu email" style="text-transform: none;">
-                <input type="password" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="password" placeholder="Informe a senha" style="text-transform: none;">
-                <button type="submit" class="btn btn-primary mx-auto">Entrar</button>
-            </form>
+              <div class="form-row">
+                  <div class="form-group col-md-4">
+                      <label for="">E-mail</label>
+                      <input type="email" class="form-control" name="email" id="email"
+                          v-model="fields.email">
+                  </div>
+
+                  <div class="form-group col-md-4">
+                      <label for="">Telefone</label>
+                      <input type="tel" class="form-control" name="tel" id="tel" v-model="fields.tel">
+                  </div>
+
+                  <div class="form-group col-md-4">
+                      <label for="">Cidade de Origem</label>
+                      <input type="text" class="form-control" name="cidade" id="cidade"
+                          v-model="fields.cidade">
+                  </div>
+              </div>
+
+              <div class="form-row">
+                  <div class="form-group col-md-3">
+                      <label for="">Peso Real</label>
+                      <input type="text" class="form-control" name="peso" id="peso"
+                          v-model="fields.peso">
+                  </div>
+
+                  <div class="form-group col-md-3">
+                      <label for="">Qtd. Volumes</label>
+                      <input type="text" class="form-control" name="volumes" id="volumes"
+                          v-model="fields.volumes">
+                  </div>
+
+                  <div class="form-group col-md-6">
+                      <label for="">Tipo de Mercadoria</label>
+                      <input type="text" class="form-control" name="tipo_mercadoria"
+                          id="tipo_mercadoria" v-model="fields.tipo_mercadoria">
+                  </div>
+              </div>
+
+              <div class="form-row">
+                  <div class="form-group col-md-3">
+                      <label for="">Cubagem</label>
+                      <input type="text" class="form-control" name="cubagem" id="cubagem"
+                          v-model="fields.cubagem">
+                  </div>
+
+                  <div class="form-group col-md-3">
+                      <label for="">Comprimento</label>
+                      <input type="text" class="form-control" name="comprimento" id="comprimento"
+                          v-model="fields.comprimento">
+                  </div>
+
+                  <div class="form-group col-md-3">
+                      <label for="">Altura</label>
+                      <input type="text" class="form-control" name="altura" id="altura"
+                          v-model="fields.altura">
+                  </div>
+
+                  <div class="form-group col-md-3">
+                      <label for="">Largura</label>
+                      <input type="text" class="form-control" name="largura" id="largura"
+                          v-model="fields.largura">
+                  </div>
+              </div>
+
+              <div class="form-row">
+
+                  <div class="form-group col-md-3">
+                      <label for="">Valor da Mercadoria</label>
+                      <input type="text" class="form-control" name="valor" id="valor"
+                          v-model="fields.valor">
+                  </div>
+
+                  <div class="form-group col-md-9">
+                      <label for="">Destinatário</label>
+                      <input type="text" class="form-control" name="destinatario" id="destinatario"
+                          v-model="fields.destinatario">
+                  </div>
+              </div>
+
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label for="">Destino</label>
+                      <input type="text" class="form-control" name="destino" id="destino"
+                          v-model="fields.destino">
+                  </div>
+
+                  <div class="form-group col-md-3">
+                      <label for="">Frete</label>
+                      <select name="frete" id="frete" v-model="fields.frete" class="form-control">
+                          <option selected>Escolha uma opção</option>
+                          <option value="Pago">Pago</option>
+                          <option value="A pagar">A pagar</option>
+                      </select>
+                  </div>
+
+                  <div class="form-group col-md-3">
+                      <label for="">Data</label>
+                      <input type="date" class="form-control" name="data" id="data"
+                          v-model="fields.data">
+                  </div>
+              </div>
+
+              <div class="form-row">
+                  <div class="form-group col-md-12">
+                      <label for="">Mensagem</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                          name="mensagem" id="mensagem" v-model="fields.mensagem"></textarea>
+                  </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
 
         </div>
       </div>
@@ -391,13 +488,13 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <script src="/js/jquery.easing.min.js"></script>
-  <script src="/js/grayscale.min.js"></script>
-  <script src="/js/app-animation.js"></script>
-  <script src="/js/owl.carousel.min.js"></script>
+  <script src="/site1/js/jquery.min.js"></script>
+  <script src="/site1/js/bootstrap.bundle.min.js"></script>
+  <script src="/site1/js/bootstrap.min.js"></script>
+  <script src="/site1/js/jquery.easing.min.js"></script>
+  <script src="/site1/js/grayscale.min.js"></script>
+  <script src="/site1/js/app-animation.js"></script>
+  <script src="/site1/js/owl.carousel.min.js"></script>
 
   <script type="text/javascript">
 
@@ -405,13 +502,13 @@
 
         $(".owl-carousel").owlCarousel({
             loop:true,
-            margin:50,
+            margin:80,
             nav:true,
             dots:true,
             autoplay:true,
             autoplayTimeout:2000,
             autoplayHoverPause:true,
-            items: 3
+            items: 1
         });
 
     })
