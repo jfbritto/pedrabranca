@@ -45,7 +45,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger texto-logo" href="#page-top"> PEDRA BRANCA TRANSPORTES </a>
-      <a class="navbar-brand js-scroll-trigger img-logo" href="#page-top"> <img width="30" class="img-fluid" src="/site1/img/logo2.png" alt=""> </a>
+      <a class="navbar-brand js-scroll-trigger img-logo" href="#page-top"> <img width="35" class="img-fluid" src="/site1/img/logo2.png" alt=""> </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
