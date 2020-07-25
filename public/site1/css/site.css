@@ -40,7 +40,7 @@ background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,
 
 
 .masthead{
-	background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,#161616 100%),url(../img/caminhao4.png) !important;
+	background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 70%,#161616 100%),url(../img/caminhao4.png) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-attachment: scroll !important;
@@ -48,12 +48,26 @@ background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,
 }
 
 .signup-section{
-	background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 75%,#161616 100%),url(../img/servico8lg.jpg) !important;
+	background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 75%,#161616 100%),url(../img/servico8lg.png) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-attachment: scroll !important;
-	background-size: cover !important;
+    background-size: cover !important;
+    padding: 3rem;
 }
+
+.about-section{
+    padding: 3rem;
+}
+
+.projects-section{
+    padding: 3rem;
+}
+
+.clients-section{
+    padding: 3rem;
+}
+
 
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 /* @media only screen and (max-width: 2000px) {
