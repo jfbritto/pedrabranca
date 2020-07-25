@@ -200,7 +200,7 @@
 				Operamos com cargas fechadas das mais variadas, sendo embaladas em caixas, pallets, containers, fardos, big bags ou granéis sólidos.
             </p>
 
-            <div class="owl-carousel" style="padding-top: 30px">
+            <div class="owl-carousel" style="padding-top: 20px; padding-bottom: 20px">
                 
                 <a target="_blank" href="" class="text-center">
                     <img style="border-radius: 100%; cursor: pointer;" src="/site1/img/servico1.jpg" alt="" > <br>
