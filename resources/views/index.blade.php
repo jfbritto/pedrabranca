@@ -91,10 +91,10 @@
         <div class="col-lg-12 mx-auto mx-auto">
             <h2 class="text-white mb-4">A EMPRESA</h2>
             <p class="text-white-50 text-justify">
-                Fundada no ano de 2002, fruto da fusão das Empresas Detonfer Transportes e SGB Transportes que atuavam de forma separadas desde o final da década de 80. A decisão dos sócios foi motivada pelo desejo de fortalecer a empresa, unificar procedimentos e gerar crescimento em volume e com qualidade.<br>
-                Desde o início das atividades das empresas que deram origem a Pedra Branca Transportes, nos concentramos no transporte de cargas gerais de longa distância, em especial percorrendo a região Nordeste do Pais. Para alavancar os negócios, em período mais recente, passamos a realizar operações também no Sudeste e Sul.<br>
-                Durante esta caminhada conquistamos valiosos parceiros que contribuíram decisivamente para o crescimento da empresa. Nos especializamos na busca de matéria-prima para produção industrial e também na distribuição do produto acabado até os centros consumidores.<br>
-                Nesta nova fase buscamos parceiros que possibilitem rotas com cargas de médias e longas distâncias, sempre com foco no transporte de insumos que viabilizem a produção de suas plantas ou na distribuição dos produtos da indústria.<br>
+                Fundada no ano de 2002, fruto da fusão das Empresas Detonfer Transportes e SGB Transportes que atuavam de forma separadas desde o final da década de 80. A decisão dos sócios foi motivada pelo desejo de fortalecer a empresa, unificar procedimentos e gerar crescimento em volume e com qualidade.<br><br>
+                Desde o início das atividades das empresas que deram origem a Pedra Branca Transportes, nos concentramos no transporte de cargas gerais de longa distância, em especial percorrendo a região Nordeste do Pais. Para alavancar os negócios, em período mais recente, passamos a realizar operações também no Sudeste e Sul.<br><br>
+                Durante esta caminhada conquistamos valiosos parceiros que contribuíram decisivamente para o crescimento da empresa. Nos especializamos na busca de matéria-prima para produção industrial e também na distribuição do produto acabado até os centros consumidores.<br><br>
+                Nesta nova fase buscamos parceiros que possibilitem rotas com cargas de médias e longas distâncias, sempre com foco no transporte de insumos que viabilizem a produção de suas plantas ou na distribuição dos produtos da indústria.<br><br>
             </p>
         </div>
         <div class="col-lg-12 mx-auto mx-auto" style="margin-bottom: 100px">
