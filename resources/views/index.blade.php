@@ -85,7 +85,7 @@
 
   <!-- About Section -->
   <section id="about" class="about-section text-center d-flex">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
 
         <div class="col-lg-12 mx-auto mx-auto">
@@ -126,7 +126,7 @@
 
   <!-- ESTRUTURA -->
   <section id="projects" class="projects-section bg-light">
-    <div class="container-fluid">
+    <div class="container">
 
     	<h2 class="text-black-50 mx-auto mt-2 mb-5 text-center">ESTRUTURA</h2>
 
@@ -188,7 +188,7 @@
 
   <!-- SERVIÇOS -->
   <section id="clients" class="clients-section d-flex bg-black">
-    <div class="container ">
+    <div class="container-fluid">
 
       <div class="text-center">
 
@@ -196,7 +196,7 @@
         
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-			<p class="text-white-50 text-justify">
+			<p class="text-white-50 ">
 				Operamos com cargas fechadas das mais variadas, sendo embaladas em caixas, pallets, containers, fardos, big bags ou granéis sólidos.
             </p>
 
