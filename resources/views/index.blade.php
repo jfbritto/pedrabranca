@@ -427,7 +427,7 @@
 
       <div class="row">
 
-        <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-map-marked-alt text-primary mb-2"></i>
@@ -441,9 +441,9 @@
 			  </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-md-4 mb-3 mb-md-0">
+        <div class="col-md-6 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-envelope text-primary mb-2"></i>
@@ -456,32 +456,92 @@
           </div>
         </div>
 
-        <div class="col-md-4 mb-3 mb-md-0">
+        <div class="col-md-6 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Telefones</h4>
               <hr class="my-4">
-              <div class="small text-black-50">(27) 3257 1523 <br>(27) 3257 1753 </div>
+              <div class="small text-black-50">(27) 3257 1523 | (27) 3257 1753 </div>
             </div>
           </div>
         </div>
+
+      </div>
+
+	  <h3 class="text-white-50 mx-auto mt-5 mb-5 text-center">FILIAIS</h3>
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-truck text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0"></h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+			  	Rod. BR 232, Km 22, Sala 08<br>
+				Bairro Manassu<br>
+				Jaboatão Dos Guararapes – PE<br>
+				CEP: 54.130-340<br>
+				(027) 99277 2200 <br>
+			  </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-truck text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0"></h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+			  	Rod. BR 316, Km 58 S/N Sala 47<br>
+				Centro, Trindade – PE<br>
+				CEP: 56.250-000<br>
+				(027) 99277 2200 <br>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-truck text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0"></h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+			  	Rua Amaro Cavalcante, nº 04 - Sala 2<br>
+				Centro<br>
+				Mossoró - RN<br>
+				CEP: 59.623-300<br>
+				(027) 99277 2200 <br>
+			  </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <div class="social d-flex justify-content-center">
         <a href="#" class="mx-2">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="mx-2">
           <i class="fab fa-facebook-f"></i>
         </a>
         <a href="#" class="mx-2">
-          <i class="fab fa-github"></i>
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-instagram"></i>
         </a>
       </div>
 
     </div>
   </section>
+
+  <iframe style="width: 100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.5941937725693!2d-40.367920684608315!3d-19.814795986668376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb795be6e423b57%3A0x4a219484ec9b910d!2sPedra%20Branca%20Transportes%20Ltda!5e0!3m2!1spt-BR!2sbr!4v1595639379792!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
 
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">

@@ -53,21 +53,30 @@ background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,
 	background-repeat: no-repeat !important;
 	background-attachment: scroll !important;
     background-size: cover !important;
-    padding: 3rem;
+    padding-top: 3rem;
 }
 
 .about-section{
-    padding: 3rem;
+    padding-top: 3rem;
 }
 
 .projects-section{
-    padding: 3rem;
+    padding-top: 3rem;
 }
 
 .clients-section{
-    padding: 3rem;
+    padding-top: 3rem;
 }
 
+.contact-section{
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+/* .container-fluid{
+    padding-right:0px !important; 
+    padding-left:0px !important;
+} */
 
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 /* @media only screen and (max-width: 2000px) {
