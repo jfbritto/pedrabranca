@@ -53,23 +53,23 @@ background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,
 	background-repeat: no-repeat !important;
 	background-attachment: scroll !important;
     background-size: cover !important;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .about-section{
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .projects-section{
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .clients-section{
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .contact-section{
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 6rem;
 }
 
