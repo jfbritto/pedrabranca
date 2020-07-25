@@ -192,7 +192,7 @@
 
       <div class="text-center">
 
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">SERVIÇOS</h2>
+        <h2 class="text-white-50 mx-auto mt-2 mb-3">SERVIÇOS</h2>
         
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
