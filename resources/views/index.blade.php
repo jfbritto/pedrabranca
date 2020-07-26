@@ -53,19 +53,22 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">SOBRE</a>
+            <a class="nav-link js-scroll-trigger" href="#sobre">SOBRE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">ESTRUTURA</a>
+            <a class="nav-link js-scroll-trigger" href="#estrutura">ESTRUTURA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#clients">SERVIÇOS</a>
+            <a class="nav-link js-scroll-trigger" href="#servicos">SERVIÇOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#login">ORÇAMENTO</a>
+            <a class="nav-link js-scroll-trigger" href="#orcamento">ORÇAMENTO</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">CONTATO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#parceiros">PARCEIROS</a>
           </li>
         </ul>
       </div>
@@ -73,7 +76,7 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead">
+  <header class="masthead masthead-pic1">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <!-- <h1 class="mx-auto text-white-50 my-0 text-uppercase">PEDRA BRANCA TRANSPORTES </h1> -->
@@ -84,7 +87,7 @@
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about-section text-center d-flex">
+  <section id="sobre" class="about-section text-center d-flex">
     <div class="container">
       <div class="row">
 
@@ -125,7 +128,7 @@
   </section>
 
   <!-- ESTRUTURA -->
-  <section id="projects" class="projects-section bg-light">
+  <section id="estrutura" class="projects-section bg-light">
     <div class="container">
 
     	<h2 class="text-black-50 mx-auto mt-2 mb-5 text-center">ESTRUTURA</h2>
@@ -187,7 +190,7 @@
 
 
   <!-- SERVIÇOS -->
-  <section id="clients" class="clients-section d-flex bg-black">
+  <section id="servicos" class="clients-section d-flex bg-black">
     <div class="container-fluid">
 
       <div class="text-center">
@@ -252,18 +255,18 @@
   </section>
 
   <!-- ORÇAMENTO -->
-  <section id="login" class="signup-section d-flex">
+  <section id="orcamento" class="signup-section d-flex">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-10 col-lg-10 mx-auto">
 
             <h2 class="text-white-50 mx-auto mt-2 mb-5 text-center">ORÇAMENTO</h2>
 
-			<div class="mx-auto text-center">
-				<!-- <h1 class="mx-auto text-white-50 my-0 text-uppercase">PEDRA BRANCA TRANSPORTES </h1> -->
-				<!-- <h2 class="text-white-50 mx-auto">SOLUÇÕES COMPLETAS EM TRANSPORTE</h2> -->
-				<buttom type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Solicitar</buttom>
-			</div>
+            <div class="container d-flex h-100 align-items-center">
+              <div class="mx-auto text-center">
+              <buttom type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">SOLICITAR ORÇAMENTO</buttom>
+              </div>
+          </div>
 
         </div>
       </div>
@@ -427,22 +430,6 @@
 
       <div class="row">
 
-        <!-- <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Endereço</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-			  	Rod. BR 101 – km 210 – Nº 08<br>
-				Caixa Postal 39 – Bairro Pedra Branca<br>
-				Ibiraçu – ES<br>
-				CEP: 29.670-000 <br>
-			  </div>
-            </div>
-          </div>
-        </div> -->
-
         <div class="col-md-6 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
@@ -467,9 +454,16 @@
           </div>
         </div>
 
+        <div class="col-md-12 mb-3 mt-5 mb-md-0">
+          
+          <buttom type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal2">NOS ENVIE UMA MENSAGEM</buttom>
+        
+        </div>
+
+
       </div>
 
-	  <h3 class="text-white-50 mx-auto mt-5 mb-5 text-center">FILIAIS</h3>
+	    <h3 class="text-white-50 mx-auto mt-5 mb-5 text-center">FILIAIS</h3>
 
       <div class="row">
 
@@ -477,7 +471,7 @@
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-truck text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0"></h4>
+              <h4 class="text-uppercase m-0">Filial</h4>
               <hr class="my-4">
               <div class="small text-black-50">
 			  	Rod. BR 232, Km 22, Sala 08<br>
@@ -494,7 +488,7 @@
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-truck text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0"></h4>
+              <h4 class="text-uppercase m-0">Filial</h4>
               <hr class="my-4">
               <div class="small text-black-50">
 			  	Rod. BR 316, Km 58 S/N Sala 47<br>
@@ -510,7 +504,7 @@
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-truck text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0"></h4>
+              <h4 class="text-uppercase m-0">Filial</h4>
               <hr class="my-4">
               <div class="small text-black-50">
 			  	Rua Amaro Cavalcante, nº 04 - Sala 2<br>
@@ -525,7 +519,81 @@
 
       </div>
 
-      <div class="social d-flex justify-content-center">
+      <h3 class="text-white-50 mx-auto mt-5 mb-5 text-center">NOS ENCONTRE</h3>
+
+    </div>
+  </section>
+
+  <iframe style="width: 100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.5941937725693!2d-40.367920684608315!3d-19.814795986668376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb795be6e423b57%3A0x4a219484ec9b910d!2sPedra%20Branca%20Transportes%20Ltda!5e0!3m2!1spt-BR!2sbr!4v1595639379792!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ENVIAR MENSAGEM</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+            <form @submit.prevent="submit" v-if="!success && !error && !loading">
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="">Nome</label>
+                        <input type="text" class="form-control" name="nome" id="nome"
+                            v-model="fields.nome">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="">E-mail</label>
+                        <input type="email" class="form-control" name="email" id="email"
+                            v-model="fields.email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Telefone Fixo</label>
+                    <input type="tel" class="form-control" name="fixo" id="fixo" v-model="fields.fixo">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="">Mensagem</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"
+                            name="mensagem" id="mensagem" v-model="fields.mensagem"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          
+
+        </div>
+        </div>
+      </div>
+      </div>
+
+
+  <!-- PARCEIROS -->
+  <section id="parceiros" class="projects-section bg-light">
+    <div class="container">
+
+      <h2 class="text-black-50 mx-auto mt-2 mb-5 text-center">PRINCIPAIS PARCEIROS</h2>
+
+      <div class="row" style="margin-top:170px">
+        <div class="col-md-3 text-center mb-5"><a href="#" target="_blank"><img width="200" class="img-fluid" src="/site1/img/parceiro1.png" alt=""></a></div>
+        <div class="col-md-3 text-center mb-5"><a href="#" target="_blank"><img width="200" class="img-fluid" src="/site1/img/parceiro2.png" alt=""></a></div>
+        <div class="col-md-3 text-center mb-5"><a href="#" target="_blank"><img width="200" class="img-fluid" src="/site1/img/parceiro3.png" alt=""></a></div>
+        <div class="col-md-3 text-center mb-5"><a href="#" target="_blank"><img width="200" class="img-fluid" src="/site1/img/parceiro4.png" alt=""></a></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50 contact-section">
+    <div class="container">
+
+      <div class="social d-flex justify-content-center" style="margin-top: 1rem; margin-bottom: 2rem">
         <a href="#" class="mx-2">
           <i class="fab fa-facebook-f"></i>
         </a>
@@ -537,16 +605,13 @@
         </a>
       </div>
 
-    </div>
-  </section>
 
-  <iframe style="width: 100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.5941937725693!2d-40.367920684608315!3d-19.814795986668376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb795be6e423b57%3A0x4a219484ec9b910d!2sPedra%20Branca%20Transportes%20Ltda!5e0!3m2!1spt-BR!2sbr!4v1595639379792!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      Copyright &copy; 2020 Pedra Branca Transportes.
 
+      <br><br>
+      <a href="https://arcoinformatica.com.br/" target="_blank"><img width="35" class="img-fluid" src="http://pedrabranca.arcoinformatica.com.br/assets/img/arco.svg" alt=""></a>
+      <br><br>
 
-  <!-- Footer -->
-  <footer class="bg-black small text-center text-white-50">
-    <div class="container">
-      Copyright &copy; WeBianchi {{date('Y')}}
     </div>
   </footer>
 
@@ -563,49 +628,53 @@
 
     $(document).ready(function(){
 
-    //   window.addEventListener("resize", function(){
+      let remove = 1;
+      let add = 2;
+
+      setInterval(() => {
+
+        if(remove == 4)
+          add = 1;
+
+        $(".masthead").removeClass("masthead-pic"+remove); //1 - 2 - 3 - 4 
+        $(".masthead").addClass("masthead-pic"+add); //2 - 3 - 4 - 5
+
+        remove++;
+        add++;
+
+        if(remove==5)
+          remove = 1;
+
+      }, 3000);
         
         let width  = screen.width;
         let height = screen.height;
 
         if(width < 415){
 
-          	$(".owl-carousel").owlCarousel({
-				loop:true,
-				margin:80,
-				nav:true,
-				dots:true,
-				autoplay:true,
-				autoplayTimeout:2000,
-				autoplayHoverPause:true,
-				items: 1
+          $(".owl-carousel").owlCarousel({
+            loop:true,
+            margin:80,
+            nav:true,
+            dots:true,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
+            items: 1
         	});
 
-        }else if(width >= 415 && width < 769){
+        }else{
 
-			$(".owl-carousel").owlCarousel({
-				loop:true,
-				margin:80,
-				nav:true,
-				dots:true,
-				autoplay:true,
-				autoplayTimeout:2000,
-				autoplayHoverPause:true,
-				items: 2
-        	});
-
-        }else if(width >= 769){
-
-			$(".owl-carousel").owlCarousel({
-				loop:true,
-				margin:80,
-				nav:true,
-				dots:true,
-				autoplay:true,
-				autoplayTimeout:2000,
-				autoplayHoverPause:true,
-				items: 2
-        	});
+          $(".owl-carousel").owlCarousel({
+            loop:true,
+            margin:80,
+            nav:true,
+            dots:true,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
+            items: 2
+          });
 
         }
 

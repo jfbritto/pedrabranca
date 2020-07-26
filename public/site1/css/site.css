@@ -15,7 +15,7 @@
 }
 
 .caminhao1{
-background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,#161616 100%),url(../img/caminhao1.png) !important;
+background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 100%,#161616 100%),url(../img/caminhao1.png) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-attachment: scroll !important;
@@ -23,7 +23,7 @@ background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,
 }
 
 .caminhao2{
-background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,#161616 100%),url(../img/caminhao2.png) !important;
+background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 100%,#161616 100%),url(../img/caminhao2.png) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-attachment: scroll !important;
@@ -31,7 +31,7 @@ background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,
 }
 
 .caminhao3{
-background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,#161616 100%),url(../img/caminhao3.png) !important;
+background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 100%,#161616 100%),url(../img/caminhao3.png) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-attachment: scroll !important;
@@ -39,8 +39,32 @@ background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,
 }
 
 
-.masthead{
-	background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 70%,#161616 100%),url(../img/caminhao4.png) !important;
+.masthead-pic1{
+	background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 90%,#161616 100%),url(../img/caminhao4.png) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-size: cover !important;
+}
+
+.masthead-pic2{
+	background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 90%,#161616 100%),url(../img/caminhao3.png) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-size: cover !important;
+}
+
+.masthead-pic3{
+	background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 90%,#161616 100%),url(../img/caminhao5.png) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-size: cover !important;
+}
+
+.masthead-pic4{
+	background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 90%,#161616 100%),url(../img/caminhao1.png) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-attachment: scroll !important;
@@ -48,7 +72,7 @@ background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,
 }
 
 .signup-section{
-	background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 75%,#161616 100%),url(../img/servico8lg.png) !important;
+	background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 75%,#161616 100%),url(../img/caminhao5.png) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-attachment: scroll !important;
@@ -70,7 +94,7 @@ background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(10,10,10,.7) 99%,
 
 .contact-section{
     padding-top: 2rem;
-    padding-bottom: 6rem;
+    padding-bottom: 0.1rem;
 }
 
 /* .container-fluid{
