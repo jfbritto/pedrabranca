@@ -239,20 +239,13 @@
 
 
 	<!-- ORÇAMENTO -->
-	<section id="orcamento" class="signup-section d-flex">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-10 col-lg-10 mx-auto">
-
-					<h2 class="text-white-50 mx-auto mt-2 mb-5 text-center">ORÇAMENTO</h2>
-
-					<div class="container d-flex h-100 align-items-center">
-						<div class="mx-auto text-center">
-							<buttom type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">SOLICITAR ORÇAMENTO</buttom>
-						</div>
-					</div>
-
-				</div>
+	<section id="orcamento" class="signup-section">
+		<div class="d-flex" style="align-items: center; height: 100%; position: relative; justify-content: center">
+			<div style="position: absolute; top: 0px">
+				<h2 class="text-white-50 mx-auto mt-2 mb-5 text-center">ORÇAMENTO</h2>	
+			</div>
+			<div style="display: flex; flex-direction: column; align-items: center	">
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">SOLICITAR ORÇAMENTO</button>
 			</div>
 		</div>
 	</section>
@@ -736,54 +729,65 @@
 		let remove = 1;
 		let add = 2;
 
-		setInterval(() => {
+
+		function setBackgroundImage () {
 
 			if(remove == 4)
-			add = 1;
+				add = 1;
 
-			$(".masthead").removeClass("masthead-pic"+remove); //1 - 2 - 3 - 4 
-			$(".masthead").addClass("masthead-pic"+add); //2 - 3 - 4 - 5
-
+			$(".masthead").animate({
+				opacity: 0.75
+			}, 500, "swing", function() {
+				$(".masthead").removeClass("masthead-pic"+remove); //1 - 2 - 3 - 4 
+				$(".masthead").addClass("masthead-pic"+add); //2 - 3 - 4 - 5
+				$(".masthead").animate({
+					opacity: 1
+				}, 500, "swing", function() {
+				});
+			});    
+			
 			remove++;
 			add++;
 
 			if(remove==5)
-			remove = 1;
+				remove = 1;
+		}
 
-		}, 3000);
+		setInterval(setBackgroundImage, 10000);
+
 			
-			let width  = screen.width;
-			let height = screen.height;
+		let width  = screen.width;
+		let height = screen.height;
 
-			if(width < 415){
+		if(width < 415){
 
-			$(".owl-carousel").owlCarousel({
-				loop:true,
-				margin:80,
-				nav:true,
-				dots:true,
-				autoplay:true,
-				autoplayTimeout:2000,
-				autoplayHoverPause:true,
-				items: 1
-				});
-
-			}else{
-
-			$(".owl-carousel").owlCarousel({
-				loop:true,
-				margin:80,
-				nav:true,
-				dots:true,
-				autoplay:true,
-				autoplayTimeout:2000,
-				autoplayHoverPause:true,
-				items: 2
+		$(".owl-carousel").owlCarousel({
+			loop:true,
+			margin:80,
+			nav:true,
+			dots:true,
+			autoplay:true,
+			autoplayTimeout:2000,
+			autoplayHoverPause:true,
+			items: 1
 			});
 
-			}
+		}else{
 
-		})
+		$(".owl-carousel").owlCarousel({
+			loop:true,
+			margin:80,
+			nav:true,
+			dots:true,
+			autoplay:true,
+			autoplayTimeout:2000,
+			autoplayHoverPause:true,
+			items: 2
+		});
+
+		}
+
+	})
 
 	</script>
 
