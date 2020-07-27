@@ -474,12 +474,12 @@
               <h4 class="text-uppercase m-0">Filial</h4>
               <hr class="my-4">
               <div class="small text-black-50">
-			  	Rod. BR 232, Km 22, Sala 08<br>
-				Bairro Manassu<br>
-				Jaboatão Dos Guararapes – PE<br>
-				CEP: 54.130-340<br>
-				(027) 99277 2200 <br>
-			  </div>
+                Rod. BR 232, Km 22, Sala 08<br>
+                Bairro Manassu<br>
+                Jaboatão Dos Guararapes – PE<br>
+                CEP: 54.130-340<br>
+                (027) 99277 2200 <br>
+			        </div>
             </div>
           </div>
         </div>
@@ -491,10 +491,10 @@
               <h4 class="text-uppercase m-0">Filial</h4>
               <hr class="my-4">
               <div class="small text-black-50">
-			  	Rod. BR 316, Km 58 S/N Sala 47<br>
-				Centro, Trindade – PE<br>
-				CEP: 56.250-000<br>
-				(027) 99277 2200 <br>
+                Rod. BR 316, Km 58 S/N Sala 47<br>
+                Centro, Trindade – PE<br>
+                CEP: 56.250-000<br>
+                (027) 99277 2200 <br>
               </div>
             </div>
           </div>
@@ -507,12 +507,12 @@
               <h4 class="text-uppercase m-0">Filial</h4>
               <hr class="my-4">
               <div class="small text-black-50">
-			  	Rua Amaro Cavalcante, nº 04 - Sala 2<br>
-				Centro<br>
-				Mossoró - RN<br>
-				CEP: 59.623-300<br>
-				(027) 99277 2200 <br>
-			  </div>
+                Rua Amaro Cavalcante, nº 04 - Sala 2<br>
+                Centro<br>
+                Mossoró - RN<br>
+                CEP: 59.623-300<br>
+                (027) 99277 2200 <br>
+              </div>
             </div>
           </div>
         </div>
@@ -573,6 +573,125 @@
       </div>
 
 
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">TRABALHE CONOSCO</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+        
+    <form @submit.prevent="submit" v-if="!success && !error && !loading">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="">Nome</label>
+                <input type="text" class="form-control" name="nome" id="nome"
+                    v-model="fields.nome">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="">E-mail</label>
+                <input type="email" class="form-control" name="email" id="email"
+                    v-model="fields.email">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="">Cidade</label>
+                <input type="text" class="form-control" name="cidade" id="cidade"
+                    v-model="fields.cidade">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="">Estado</label>
+                <select name="estado" id="estado" v-model="fields.estado" class="form-control">
+                    <option selected>Escolha um estado</option>
+                    <option value="Acre">Acre</option>
+                    <option value="Alagoas">Alagoas</option>
+                    <option value="Amapá">Amapá</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Ceará">Ceará</option>
+                    <option value="Distrito Federal">Distrito Federal</option>
+                    <option value="Espírito Santo">Espírito Santo</option>
+                    <option value="Goiás">Goiás</option>
+                    <option value="Maranhão">Maranhão</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Pará">Pará</option>
+                    <option value="Paraíb">Paraíba</option>
+                    <option value="Paraná">Paraná</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Piauí">Piauí</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Rondônia">Rondônia</option>
+                    <option value="Roraima">Roraima</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Sergipe">Sergipe</option>
+                    <option value="Tocantins">Tocantins</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="">Sexo</label>
+                <select name="sexo" id="sexo" v-model="fields.sexo" class="form-control">
+                    <option selected>Escolha um sexo</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="">Estado Civil</label>
+                <select name="estado_civil" id="estado_civil" v-model="fields.estado_civil"
+                    class="form-control">
+                    <option selected>Escolha um estado civil</option>
+                    <option value="Casado">Casado (a)</option>
+                    <option value="Divorciado">Divorciado (a)</option>
+                    <option value="Separado">Separado (a)</option>
+                    <option value="Solteiro">Solteiro (a)</option>
+                    <option value="Amigado">Amigado (a)</option>
+                    <option value="Viúvo">Viúvo (a)</option>
+                </select>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="">Nascimento</label>
+                <input type="date" class="form-control" name="nascimento" id="nascimento"
+                    v-model="fields.nascimento">
+            </div>
+            <div class="form-group col-md-5">
+                <label for="">Vaga pretendida</label>
+                <input type="text" class="form-control" name="vaga" id="vaga"
+                    v-model="fields.vaga">
+            </div>
+            <div class="form-group col-md-12">
+                <label for="exampleFormControlFile1">Anexe um currículo</label>
+                <input type="file" class="form-control-file" @change="processFile($event)">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-12">
+                <label for="">Observações</label>
+                <textarea class="form-control" id="" rows="3" name="obs" id="obs"
+                    v-model="fields.obs"></textarea>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+      
+
+</div>
+</div>
+</div>
+</div>
+
+
   <!-- PARCEIROS -->
   <section id="parceiros" class="projects-section bg-light">
     <div class="container">
@@ -605,11 +724,16 @@
         </a>
       </div>
 
+      <div>
+        <span class="badge badge-primary" style="padding:10px; cursor: pointer; background-color:#686868; color:#2e2e2e" data-toggle="modal" data-target="#exampleModal3">TRABALHE CONOSCO</span>
+      </div>
+     
+      <br>
 
       Copyright &copy; 2020 Pedra Branca Transportes.
 
       <br><br>
-      <a href="https://arcoinformatica.com.br/" target="_blank"><img width="35" class="img-fluid" src="http://pedrabranca.arcoinformatica.com.br/assets/img/arco.svg" alt=""></a>
+        <a href="https://arcoinformatica.com.br/" target="_blank"><img width="35" class="img-fluid" src="http://pedrabranca.arcoinformatica.com.br/assets/img/arco.svg" alt=""></a>
       <br><br>
 
     </div>
