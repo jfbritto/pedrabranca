@@ -729,65 +729,66 @@
 		let remove = 1;
 		let add = 2;
 
-
-		function setBackgroundImage () {
+		setInterval(() => {
 
 			if(remove == 4)
-				add = 1;
+			add = 1;
+
+			// $(".masthead").removeClass("masthead-pic"+remove); //1 - 2 - 3 - 4 
+			// $(".masthead").addClass("masthead-pic"+add); //2 - 3 - 4 - 5
 
 			$(".masthead").animate({
 				opacity: 0.75
 			}, 500, "swing", function() {
+				
 				$(".masthead").removeClass("masthead-pic"+remove); //1 - 2 - 3 - 4 
 				$(".masthead").addClass("masthead-pic"+add); //2 - 3 - 4 - 5
 				$(".masthead").animate({
 					opacity: 1
 				}, 500, "swing", function() {
 				});
-			});    
-			
+			}); 
+
 			remove++;
 			add++;
 
 			if(remove==5)
-				remove = 1;
-		}
+			remove = 1;
 
-		setInterval(setBackgroundImage, 10000);
-
+		}, 5000);
 			
-		let width  = screen.width;
-		let height = screen.height;
+			let width  = screen.width;
+			let height = screen.height;
 
-		if(width < 415){
+			if(width < 415){
 
-		$(".owl-carousel").owlCarousel({
-			loop:true,
-			margin:80,
-			nav:true,
-			dots:true,
-			autoplay:true,
-			autoplayTimeout:2000,
-			autoplayHoverPause:true,
-			items: 1
+			$(".owl-carousel").owlCarousel({
+				loop:true,
+				margin:80,
+				nav:true,
+				dots:true,
+				autoplay:true,
+				autoplayTimeout:2000,
+				autoplayHoverPause:true,
+				items: 1
+				});
+
+			}else{
+
+			$(".owl-carousel").owlCarousel({
+				loop:true,
+				margin:80,
+				nav:true,
+				dots:true,
+				autoplay:true,
+				autoplayTimeout:2000,
+				autoplayHoverPause:true,
+				items: 2
 			});
 
-		}else{
+			}
 
-		$(".owl-carousel").owlCarousel({
-			loop:true,
-			margin:80,
-			nav:true,
-			dots:true,
-			autoplay:true,
-			autoplayTimeout:2000,
-			autoplayHoverPause:true,
-			items: 2
-		});
-
-		}
-
-	})
+		})
 
 	</script>
 
