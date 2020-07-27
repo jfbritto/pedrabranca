@@ -12,9 +12,9 @@
     <meta property="type" content="website" />
     <meta property="og:title" content="PEDRA BRANCA TRANSPORTES">
     <meta property="og:description" content="Empresa especializada em Transportes de carga">
-    <meta property="og:image" content="/site1/img/logo2.png">
+    <meta property="og:image" content="/site1/img/logo-pad.jpeg">
     <meta property="og:locale" content="pt_BR">
-    <meta property="og:image:type" content="/site1/img/logo2.png">
+    <meta property="og:image:type" content="jpeg">
     <meta property="og:image:width" content="640">
     <meta property="og:image:height" content="480">
 
