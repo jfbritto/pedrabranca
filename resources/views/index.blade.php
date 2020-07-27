@@ -23,7 +23,7 @@
 
     <link rel="icon" href="/site1/img/logo.png">
 
-  <title>Pedra Branca Transportes - Transportes de carga</title>
+  <title>Pedra Branca Transportes - Transporte de cargas</title>
 
 
   <link href="/site1/css/bootstrap.min.css" rel="stylesheet">
