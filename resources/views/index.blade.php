@@ -755,7 +755,7 @@
 			if(remove==5)
 			remove = 1;
 
-		}, 5000);
+		}, 10000);
 			
 			let width  = screen.width;
 			let height = screen.height;
